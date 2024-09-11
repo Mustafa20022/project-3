@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale-1.0">
+      <title>project3</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/all.css">
+      <link rel="stylesheet" href="css/style.css">  
+    </head>
+    <body>
+      <header>
+        <div class="head-perant">
+            <nav class="navbar navbar-expand-md nav1 w-100 container-fluid">
+              <div class="container-fluid">
+                <h2 class="title-head mx-3">Z-phone</h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse mx-3" id="mynavbar">
+                  <ul class="navbar-nav me-auto header-ul">
+                    <li class="nav-item ">
+                      <a class="nav-link text-light" href="javascript:void(0)">home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="javascript:void(0)">link</a>
+                    </li>
+                    <li class="nav-item">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-light dropdown-toggle btn-header1 rounded-pill" data-bs-toggle="dropdown">types</button>
+                        <div class="dropdown-menu my-3 col-12">
+                          <a class="dropdown-item bolder" href="#">Mobile</a>
+                          <a class="dropdown-item" href="#">Tab</a>
+                          <hr>
+                          <a class="dropdown-item" href="#">NOte 20</a>
+                          <a class="dropdown-item" href="#">Flod</a>
+                          <a class="dropdown-item" href="#">S 24</a>
+                          <a class="dropdown-item" href="#">A 51</a>
+                          <a class="dropdown-item" href="#">more..</a>
+                        </div> <!-- menu -->
+
+                      </div> <!-- btn-group -->
+
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="javascript:void(0)">about</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex ">
+                    <input class="form-control me-2 inp-header rounded-pill  " type="text" placeholder="Search">
+                    <button class="btn-header rounded-pill p-2" type="button">Search</button>
+                  </form>
+                  <button type="button" class="btn btn-primary mx-1 btn-header btn-header1 rounded-pill p-2" data-bs-toggle="modal" data-bs-target="#myModal">login  </button>
+                </div> <!-- div-ul -->
+              </div>
+            </nav>               
+          </div> <!-- head-perant -->
+          <div class="modal fade p-4 mb-3" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-conten p-4">
+                <div class="modal-header login-inp">
+                  <h5 class="modal-title title-login">Login</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> <!-- header-login -->
+                <form action="/action_page.php" class="bg-light p-4">
+                  <div class="mb-3 mt-3 div-log">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                    <p>We'll never share your email with anyone alse.</p>
+                  </div>
+                  <div class="mb-3 div-log">
+                    <label for="pwd">Password</label>
+                    <input type="password" class="form-control" id="pwd" name="pswd">
+                  </div>           
+                  <div class="form-check form-switch div-log">
+                    <input class="form-check-input bg-dark" type="checkbox" id="mySwitch" name="remember" value="yes" checked> <label class="form-check-label" for="mySwitch">Remember me</label>
+                </div>
+                </form>
+                <div class="modal-footer bg-light">
+                  <button type="button" class="btn btn-primary btn-login rounded-pill mx-2" data-bs-dismiss="modal">Login</button>
+                  <button type="button" class="btn btn-primary btn-login2 rounded-pill">close</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+       
+      </header>
+      <div class="w-100 p-2"></div>
+      <div class="w-100 p-1"></div>
+
+      <main>
+              <div id="carouselExampleCaptions" class="carousel slide imgs  " data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div> <!-- cotrol butten -->
+  
+                 <div class="carousel-inner imgg pt-5 ">
+                      <div class="carousel-item active img11 ">
+                        <img src="images/pho-hom3.webp" class="d-block w-100 img10" alt="..." height="460px">
+                        <div class="carousel-caption d-none d-md-block div-inf-home col-8 mx-3">
+                          <h5 class="title-home">Telephone</h5>
+                          <p class="p-home fs-5">We Have All Types Of Mobiles .</p>
+                          <button type="button" class="btn btn-info rounded-pill">Enquiry</button>
+                        </div>  <!-- inf1 -->
+                      </div> <!-- img1 -->
+
+                      <div class="carousel-item ">
+                        <img src="images/pho-hom2.jpg" class="d-block w-100 img10" alt="..." height="460px">
+                        <div class="carousel-caption d-none d-md-block div-inf-home col-8 mx-3">
+                          <h5 class="title-home">Telephone</h5>
+                          <p class="p-home fs-5">We Have Installment Phones Available .</p>
+                          <button type="button" class="btn btn-warning btn-info rounded-pill">Enquiry</button>
+                        </div> <!-- inf2 --> 
+                      </div>  <!-- img2 --> 
+      
+                      <div class="carousel-item">
+                        <img src="images/pho-hom1.jpg" class="d-block w-100 img10" alt="..." height="460px" >
+                        <div class="carousel-caption d-none d-md-block div-inf-home col-8 mx-3" >
+                          <h5 class="title-home">Tablet</h5>
+                          <p class="p-home fs-5">We Have All Types Of Mobiles .</p>
+                          <button type="button" class="btn btn-warning btn-info rounded-pill">Enquiry</button>
+                        </div><!-- inf3  -->
+                      </div>  <!-- img3  -->
+                    
+                      <div class="carousel-item">
+                        <img src="images/pho-hom14.jpg" class="d-block w-100 img10" alt="..." height="460px">
+                        <div class="carousel-caption d-none d-md-block div-inf-home col-8 mx-3">
+                          <h5 class="title-home">Tablet</h5>
+                          <p class="p-home fs-5">We Have Installment Phones Available .</p>
+                          <button type="button" class="btn btn-warning btn-info rounded-pill">Enquiry</button>
+                        </div>  <!-- inf4 -->
+                      </div>  <!--  img -->
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>  <!-- control previous -->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button> <!-- control next -->
+              </div>  <!-- images  -->
+  
+              <div class="btn-group-vertical icon-hom">
+                <a href="#" class="icon-a-hom "><i class="fab fa-facebook-square"></i></a>
+                <a href="#" class="icon-a-hom "><i class="fab fa-instagram-square"></i></a>
+                <a href="#" class="icon-a-hom "><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="icon-a-hom "><i class="fab fa-twitter-square"></i></a>
+                <a href="#" class="icon-a-hom "><i class="fab fa-whatsapp-square"></i></a>
+              </div>  <!-- icon-hom  -->
+              <hr>
+      </main> 
+
+      <section>
+        <div class="wel-pernat">
+          <div class="container-fluid p-2 rounded wel-item">
+            <h1 class="fam-title fs-2" >WELCOME To Z-Phone</h1>
+          </div>
+          <div class="container-fluid p-3 wel-item ">
+            <p class="wel-p ">We Are Honored TO Welcome You In Our Halls To Provid Our Services And Offers .</p>
+            <button type="button" class="btn wel-btn rounded-pill">Learn More.</button>
+          </div>
+        </div>  <!-- wel-pernat  -->
+        <hr>
+      </section> 
+      
+      <section>
+            <div class="perant-fam">
+              <div class="container-fluid p-2 text-center fam-div rounded fam-title">
+                <h1 >The Most Famouse Types Of Mobile</h1>
+              </div>  <!-- fam-div -->
+  
+              <div class="accordion div-list my-3" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button btn-list-fam fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Samsung Galaxy S24 ultra
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body p-list-fam">
+                      Processor: Octa-Core Snapdragon 8 Gen 3 4nm Technology. <br> <br>
+                      Strong RAM: 256/512/1000GB With 12GB RAM. <br><br>
+                      Camera: Quad Rear 200+50+10+12MP / front 12MP.
+                    </div>   <!-- p-list-fam  -->
+                  </div> 
+                </div>  
+  
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed btn-list-fam fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Samsung Galaxy A25 5G
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body p-list-fam">
+                      Processor: Octa-Core Exynos 1280 5mn. <br> <br>
+                      Strong RAM: 128/256GB with 6/8GB RAM. <br><br>
+                      Camera: Triple Rear 50+8+2MP /Front 13MP.
+                    </div>  <!-- p-list-fam  -->
+                  </div>  
+  
+                </div> 
+  
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed btn-list-fam fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Samsung Galaxy Z Fold 5
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body p-list-fam">
+                      Processor: Octa-Core Snapdragon 8 Gen 3 4nm Technology. <br> <br>
+                      Strong RAM: 256/512/1000GB With 12GB RAM. <br><br>
+                      Camera: Triple Rear 50+12+12MP / Front 4+10MP.
+                    </div>   <!-- p-list-fam  -->
+                  </div>
+                </div>
+              </div> <!--  div-list  -->
+            </div>    <!-- perant-fam  -->
+          
+        <hr>
+      </section>   
+
+      <section>
+            <div class="perant-inf">
+              <div class="container-fluid rounded text-center p-2 title-info">
+                <h1>Information About Phones And Tablets</h1> 
+              </div> 
+              <div class="container-fluid p-3 ">
+                <p class="p-info fs-4">Enter The Name Of The Mobile Or Tablets :</p> 
+                <textarea placeholder="Enter Here" class="area-info"></textarea><br> <br>
+                <button class="btn btn-primary btn-info rounded-pill">View Specifications</button>
+              </div>
+            </div> <!--  perant-inf  -->
+        <hr>
+      </section>    
+    
+      <section>
+        <div class="perant-self col-12">
+          <div class="container-fluid">
+            <div class="self w-100"></div>
+          </div> <!--  container-self  -->
+        </div>  <!-- perant-self -->
+        
+      </section>
+
+       <section>
+            <div class="perant-feat">
+              <div class="container-fluid text-center w-100 p-2 title-feat col-12">
+                <h1>Feature Phone</h1>
+              </div>  <!-- title-feat  -->
+    
+              <div class="container-fluid plac row p-3 mx-1 justify-content-around perant-item-feat">
+                <div class="col-lg-4 col-12">
+                  <div class="card card-fam mx-auto feat-item my-3 " style="width:100%;">
+                    <img src="images/feat1.jpg" class="card-img-top" alt="..." height="300vh">
+                    <div class="card-body  div.ifor">
+                      <span class="card-title feat-sp">Note 20</span> <br>
+                      <p class="card-text feat-p">price:500 $</p>
+                      <a href="#" class="btn feat-a rounded-pill">More</a>
+                    </div>
+                  </div>   <!-- feat-item  -->
+                </div>
+                
+                <div class="col-lg-4 col-12">
+                  <div class="card card card-fam mx-auto feat-item my-3" style="width: 100%;">
+                    <img src="images/feat2.jpg" class="card-img-top" alt="..." height="300vh">
+                    <div class="card-body  div.ifor">
+                      <span class="card-title feat-sp">Note 10 Plus</span> <br>
+                      <p class="card-text feat-p">price:770 $</p>
+                      <a href="#" class="btn feat-a rounded-pill">More</a>
+                    </div>
+                  </div>   <!-- feat-item   -->
+                </div>
+
+                <div class="col-lg-4 col-12">
+                  <div class="card card card-fam mx-auto feat-item my-3" style="width: 100%;">
+                    <img src="images//feat3.jpg" class="card-img-top" alt="..." height="300vh">
+                    <div class="card-body  div.ifor">
+                      <span class="card-title feat-sp">A51</span> <br>
+                      <p class="card-text feat-p">price:270 $</p>
+                      <a href="#" class="btn feat-a rounded-pill">More</a>               
+                    </div>
+                  </div>  <!-- feat-item  -->
+                </div>
+
+                <div class="col-lg-4 col-12">
+                  <div class="card card-fam mx-auto feat-item col-lg-3 col-12 my-4" style="width: 100%;">
+                    <img src="images/feat4.jpg" class="card-img-top" alt="..." height="300vh">
+                    <div class="card-body  div.ifor">
+                      <span class="card-title feat-sp">S20 ultra</span> <br>
+                      <p class="card-text feat-p">price:900 $</p>
+                      <a href="#" class="btn feat-a rounded-pill">More</a>
+                    </div>
+                  </div>  <!-- feat-item  -->
+                </div>
+
+                <div class="col-lg-4 col-12">
+                  <div class="card card card-fam mx-auto feat-item col-lg-4 col-12 my-4" style="width: 100%;">
+                    <img src="images/feat5.jpg" class="card-img-top" alt="..." height="300vh">
+                    <div class="card-body  div.ifor">
+                      <span class="card-title feat-sp">ZFold2</span> <br>
+                      <p class="card-text feat-p">price:1060 $</p>
+                      <a href="#" class="btn feat-a rounded-pill">More</a>   
+                    </div>
+                  </div>   <!-- feat-item  -->
+                </div>
+
+                <div class="col-lg-4 col-12">
+                  <div class="card card card-fam mx-auto feat-item col-lg-4 col-12 my-4" style="width: 100%;">
+                    <img src="images/feat6.jpg" class="card-img-top" alt="..." height="300vh">
+                    <div class="card-body  div.ifor">
+                      <span class="card-title feat-sp">A21 S</span> <br>
+                      <p class="card-text feat-p">price:350 $</p>
+                      <a href="#" class="btn feat-a rounded-pill">More</a>
+                    </div>
+                  </div>  <!-- feat-item  -->
+                </div>
+                
+                <div class="col-lg-4 col-12">
+                  <div class="card card feat-item col-lg-4 col-12 my-4" style="width: 100%;">
+                    <img src="images/feat7.jpg" class="card-img-top" alt="..." height="300vh">
+                    <div class="card-body  div.ifor">
+                      <span class="card-title feat-sp">S10</span> <br>
+                      <p class="card-text feat-p">price:300 $</p>
+                      <a href="#" class="btn feat-a  rounded-pill">More</a>
+                    </div>
+                  </div>  <!--  feat-item   -->
+                </div>
+
+                <div class="col-lg-4 col-12">
+                  <div class="card card feat-item col-lg-4 col-12 my-4 " style="width: 100%;">
+                    <img src="images/feat8.jpg" class="card-img-top" alt="..." height="300vh">
+                    <div class="card-body div.ifor">
+                      <span class="card-title feat-sp">A55</span> <br>
+                      <p class="card-text feat-p">price:250 $</p>
+                      <a href="#" class="btn feat-a rounded-pill">More</a>
+                    </div>
+                  </div>  <!-- feat-item   -->
+                </div>
+
+              </div>
+    
+            </div>  <!-- perant-feat -->
+        
+          <br><br>
+      </section>
+
+      <section>
+        <div class="perant-self2">
+          <div class="container-fluid">
+            <div class="self2 w-100"></div>
+          </div>  <!-- container-self2  -->
+        </div> <!--  perant-self2  -->
+  
+      </section>
+      <hr>
+      <section>
+            <div class="perant-work">
+              <div class="container-fluid p-2 text-center title-work">
+                <h1>Work Team</h1>
+              </div>
+              <div class="container-fluid plac row p-3 mx-1  justify-content-around">
+                <div class="col-lg-4 col-12 my-2">
+                  <div class="card mx-auto img-item-work"style="100%">
+                    <div class="imgs-work">
+                      <img class="card-img-top img-work" src="images/work-item1.png" alt="card image"  height="374vh">
+                    </div>
+                    <div class="card-img-overlay work-per1 ">
+                      <img class="rounded-pill my-4 img-sm" src="images/work-item1.png" alt="" width="100vw" height="100vh">
+                      <h4 class="card-title h-work fs-5">Mohammed Ali</h4>
+                      <p class="card-text p-work fs-5">Boss</p>
+                      <div class="div-icon">
+                        <a href="#" class="px-2 fs-3 icon-work"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" class="px-2 fs-3 icon-work"><i class="fab fa-instagram-square"></i></a>
+                        <a href="#" class="px-2 fs-3 icon-work"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="px-2 fs-3 icon-work"><i class="fab fa-twitter-square"></i></a>
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-12 my-2">
+                  <div class="card mx-auto work-per img-item-work " style="width:100%">
+                    <div class="imgs-work ">
+                      <img class="card-img-top img-work" src="images/work-item3.jpg" alt="card image"  height="374vh">
+                    </div>
+                    <div class="card-img-overlay work-per1">
+                      <img class="rounded-pill my-4 img-sm" src="images/work-item3.jpg" alt="" width="100vw" height="100vh">
+                      <h4 class="card-title h-work fs-5">Khaled Mustafa</h4>
+                      <p class="card-text p-work fs-5">Supervisor</p>
+                      <div class="div-icon">
+                        <a href="#" class="px-2 fs-3 icon-work"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" class="px-2  fs-3 icon-work"><i class="fab fa-instagram-square"></i></a>
+                        <a href="#" class="px-2 fs-3 icon-work"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="px-2 fs-3 icon-work"><i class="fab fa-twitter-square"></i></a>
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-12 my-2">
+                  <div class="card mx-auto img-item-work" style="width:100%">
+                    <div class="imgs-work">
+                      <img class="card-img-top img-work" src="images/work-item2.jpg" alt="card image" height="374vh">
+                    </div>
+                    <div class="card-img-overlay work-per1">
+                      <img class="rounded-pill my-4 img-sm" src="images/work-item2.jpg" alt="" width="100vw" height="100vh">
+                      <h4 class="card-title h-work  fs-5">Ahmed Alahmed</h4>
+                      <p class="card-text p-work  fs-5">Accountant</p>
+                      <div class="div-icon">
+                        <a href="#" class="px-2 fs-3 icon-work"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" class="px-2  fs-3 icon-work"><i class="fab fa-instagram-square"></i></a>
+                        <a href="#" class="px-2 fs-3 icon-work"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="px-2 fs-3 icon-work"><i class="fab fa-twitter-square"></i></a>
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+     
+            </div>
+    
+          </div> <!--  perant-work -->
+          <hr>
+      </section>
+
+      <section>
+            <div class="perant-week">
+              <div class="container-fluid title-week text-center">
+                <h1>Weekly Offers</h1>
+              </div>
+              <div class="container  ">
+                <div class="my-5 mx-2 row item-week">
+                  <div class="info-week col-lg-7 col-12">
+                    <h2 class="title-item-week pt-4">S 22</h2>
+                    <p class="line-week"></p>
+                    <p class="info-item-week ">Processor: Octa-Core Snapdragon 8 Gen 1 Technology 4nm <br>
+                    Strong / RAM: 128GB With 8GB RAM <br>
+                    Camera: Quad Rear 50+10+12.MB/Front 10MB <br>
+                    Screen: 6.1 Inches With FHD + Resolution With A Small <br> Notch <br>
+                    Operation System: Android 12 <br>
+                    Battery: 3700 mAh</p> 
+                    <span class="sp-item-week fs-4">Price: <span class="sp-price">420 $</span> 380 $</span> <br> <br>
+                    
+                    <button type="button" class="btn btn-week rounded-pill"><i class="fas fa-tag"></i> Buying</button>
+                    <button type="button" class="btn btn-week rounded-pill "><i class="fas fa-list-ul"></i> Details</button> <br>
+                  </div>
+        
+                    <div class="img-week col-lg-5 col-12">
+                      <img src="images/week1.jpg" alt="" class="mx-2" width="100%" height="380vh">
+                    </div>
+                  
+                </div>  <!-- item-week -->
+
+                <div class="my-5 mx-2 row item-week">
+                  <div class="img-week1 col-lg-5 col-12">
+                    <img src="images/week2.jpg" alt="" class="mx-4" width="100%" height="380vh">
+                  </div>
+
+                  <div class="info-week1 col-lg-7 col-12 mx-3">
+                    <h2 class="title-item-week pt-4">S 23</h2>
+                    <p class="line-week"></p>
+                    <p class="info-item-week ">Processor: Octa-Core Snapdragon 8 Gen 2 Technology 4nm <br>
+                      Strong / RAM: 128/256 GB With 8GB RAM <br>
+                      Camera: Triple Rear 50+10+12.MB/Front 12MB <br>
+                      Screen: 6.1 Inches With FHD + Resolution With A Small <br> Notch <br>
+                      Operation System: Android 13 <br>
+                      Battery: 3900 mAh</p>
+                    <span class="sp-item-week fs-4">Price: <span class="sp-price">470 $</span> 440 $</span> <br> <br>
+
+                    <button type="button" class="btn btn-week rounded-pill"><i class="fas fa-tag"></i> Buying</button>
+                    <button type="button" class="btn btn-week rounded-pill"><i class="fas fa-list-ul"></i> Details</button> <br> <br>
+                  </div>
+                </div> <!--  item-week  -->
+
+                <div class="my-5 mx-2 row  item-week">
+                  <div class="info-week col-lg-7 col-12">
+                    <h2 class="title-item-week pt-4">A 32</h2>
+                    <p class="line-week"> 
+                    <p class="info-item-week">Processor: Octa-Core Mediatek Helio G80 Technology 12nm <br>
+                      Strong / RAM: 128GB With 6GB RAM <br>
+                      Camera: Quad Rear 64+8+5+5.MB/Front 12MB <br>
+                      Screen: 6.4 Inches With FHD + Resolution With A Small <br> Notch <br>
+                      Operation System: Android 11 <br>
+                      Battery: 5000 mAh</p>
+                    <span class="sp-item-week fs-4">Price: <span class="sp-price">320 $</span> 290 $</span> <br><br>
+                    <button type="button" class="btn btn-week rounded-pill"><i class="fas fa-tag"></i> Buying</button>
+                    <button type="button" class="btn btn-week rounded-pill"><i class="fas fa-list-ul"></i> Details</button> <br>
+                  </div>
+                  <div class="img-week2  col-lg-5 col-12">
+                    <img src="images/week3.jpg" class="mx-2" alt=""  width="100%" height="380vh">
+                  </div>
+                </div>  <!-- item-week  -->
+
+                <div class="my-5 mx-2 row item-week">
+                  <div class="img-week3 col-lg-5 col-12">
+                    <img src="images/week4.jpg" class="mx-4" alt=""width="100%" height="380vh">
+                  </div>
+                  
+                  <div class="info-week1 col-lg-7 col-12 mx-3">
+                    <h2 class="title-item-week pt-4">S 21</h2>
+                    <p class="line-week"></p>
+                    <p class="info-item-week">Processor: Octa-Core Exynos 2100 Technology 5nm <br>
+                      Strong / RAM: 128GB With 8GB RAM <br>
+                      Camera: Triple Rear 12+12+64.MB/Front 10MB <br>
+                      Screen: 6.2 Inches With FHD + Resolution With A Small <br> Notch <br>
+                      Operation System: Android 11 <br>
+                      Battery: 4000 mAh</p> 
+                      <span class="sp-item-week fs-4">Price: <span class="sp-price">320 $</span> 290 $</span> <br> <br>
+                      <button type="button" class="btn btn-week rounded-pill"><i class="fas fa-tag"></i> Buying</button>
+                      <button type="button" class="btn btn-week rounded-pill "><i class="fas fa-list-ul"></i> Details</button> <br> <br>
+                  </div>
+                  
+                </div>  <!-- item-week  -->
+              </div>
+      
+      </section>
+
+      <footer>
+        <div class="link-perant">
+          <div class="container-fluid title-link text-center">
+            <h1>Join Us</h1>
+          </div>
+          <div class="container-fluid plac row p-3 justify-content-around mx-1 ">
+           <div class="link-item text-center rounded col-lg-2 col-7 my-3 ">
+            <a href="#" class="a-link lin1 "><i class="fab fa-facebook-square"></i></a>
+           </div>
+           <div class="link-item text-center rounded col-lg-2 col-7 my-3">
+            <a href="#" class="a-link lin2"><i class="fab fa-instagram-square"></i></a>
+           </div>
+           <div class="link-item text-center rounded col-lg-2 col-7 my-3">
+            <a href="#" class="a-link lin3"><i class="fab fa-twitter-square"></i></a>
+           </div>
+           <div class="link-item text-center rounded col-lg-2 col-7 my-3">
+            <a href="#" class="a-link lin4"><i class="fab fa-whatsapp-square"></i></a>
+           </div>
+          </div>
+        </div> <!--  title-link  -->
+         
+      </footer>
+      
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
